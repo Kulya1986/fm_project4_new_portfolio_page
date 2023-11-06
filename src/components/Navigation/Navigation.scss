@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+#name_logo{
+    color: var(--page-white);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.444px;
+}
+
+#social_links_top{
+    margin-left: auto;
+}

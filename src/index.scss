@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+
+:root{
+  --page-black: #151515;
+  --page-green: #4EE1A0;
+  --page-grey: #242424;
+  --page-light-grey: #D9D9D9;
+  --page-white: #FFFFFF;
+
+  --page-heading-xl: 88px;
+  --page-line-xl: 88px;
+  --page-spacing-xl: -2.5px;
+  --page-heading-l: 48px;
+  --page-line-l: 56px;
+  --page-spacing-l: -1.5px;
+  --page-heading-m: 24px;
+  --page-line-m: 32px;
+  --page-p: 18px;
+  --page-p-line: 28px;
+
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk';
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  background-color: var(--page-black);
+  color: var(--page-white);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  font-size: var(--page-heading-xl);
+  line-height: var(--page-line-xl);
+  font-weight: 700;
+  letter-spacing: var(--page-spacing-xl);
+}
+
+h2{
+  font-size: var(--page-heading-l);
+  line-height: var(--page-line-l);
+  font-weight: 700;
+  letter-spacing: var(--page-spacing-l);
+}
+
+h3{
+  font-size: var(--page-heading-m);
+  line-height: var(--page-line-m);
+  font-weight: 700;
+  letter-spacing: var(--page-spacing-m);
+}
+
+p{
+  font-size: var(--page-p);
+  line-height: var(--page-p-line-line);
+  font-weight: 500;
+}
