@@ -1,11 +1,19 @@
-nav{
+footer{
+    background-color: var(--page-grey);
+    padding: 0px 165px 92px 165px;
+
+    hr{
+        margin: 0px;
+    }
+}
+#footer-content{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    // width: 100%;
-    padding: 40px 165px;
+    margin-top: 48px;
+    
 }
-#name_logo_nav{
+#name_logo_footer{
     color: var(--page-white);
     font-size: 32px;
     font-weight: 700;
@@ -13,7 +21,7 @@ nav{
     letter-spacing: -0.444px;
 }
 
-#social_links_nav{
+#social_links_footer{
     width: 12rem;
     height: 25px;
     display: flex;
@@ -21,7 +29,6 @@ nav{
     justify-content: space-between;
     align-items: baseline;
     margin-left: auto;
-    margin-right: 30px;
 
     a:hover{
         svg > path {

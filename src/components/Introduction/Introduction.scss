@@ -1,0 +1,45 @@
+// import intro_desktop from '../../images/image-profile-desktop.webp';
+// import intro_mobile from '../../images/image-profile-mobile.webp';
+// import intro_tablet from '../../images/image-profile-tablet.webp';
+
+#intro{
+    padding: 88px 165px 216px 165px;
+    background: url('../../images/pattern-rings.svg ') -10% 15% no-repeat;
+    background-size: auto;
+   
+    #intro-hero{
+        z-index: -2;
+        position: absolute;
+        top: 0px;
+        right: 165px;
+        width: 445px;
+        height: 720px;
+        background-image: url('../../images/image-profile-desktop.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #intro-circle{
+        z-index: -1;
+        position: absolute;
+        bottom: 10%;
+        left: -14%;
+        width: 129px;
+        height: 129px;
+        background-image: url('../../images/pattern-circle.svg');
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+#about-me{
+    color: var(--page-light-grey); 
+    width: 28rem;     
+}
+h1{
+    color: var(--page-white);
+    margin-right: 350px;
+   
+    span{
+        text-decoration: underline;
+        text-decoration-color: var(--page-green);
+    }
+}

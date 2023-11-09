@@ -1,0 +1,50 @@
+#contact-form{
+    background: url('../../images/pattern-rings.svg ') -25% 85% no-repeat;
+    background-size: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    // align-items: center;
+    background-color: var(--page-grey);
+    padding: 84px 165px 92px 165px;
+
+    #contact-form_copy{
+        width: 60%;
+
+        h2{
+            font-size: var(--page-heading-xl);
+            line-height: var(--page-line-xl);
+            font-weight: 700;
+            letter-spacing: var(--page-spacing-xl);
+            margin-bottom: 2.25rem;
+        }
+        p{
+            max-width: 445px;
+        }
+    }
+
+    form{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        width: 40%;
+
+        input, textarea{
+            width: 100%;
+            font-size: 1rem;
+            line-height: 26px;
+            background-color: var(--page-grey);
+            color: rgb(255 255 255 / 50%);
+            border-style: none;
+            border-bottom: 1px solid var(--page-white);
+            text-indent: 1.5rem;
+            padding-bottom: 1.1rem;
+        }
+        textarea{
+            resize: none;
+        }
+        button{
+            width: fit-content;
+            margin-left: auto;
+        }
+    }
+}
