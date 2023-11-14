@@ -1,0 +1,20 @@
+#container{
+    background: url('../src/images/image-profile-desktop.webp') calc(100% - 165px) 0 no-repeat;
+    background-size: 445px 720px;
+}
+
+@media only screen and (max-width: 820px) {
+    #container{
+        background: url('../src/images/image-profile-tablet.webp') 100% 0 no-repeat;
+        background-size: 322px 600px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #container{
+        background: url('../src/images/pattern-rings.svg ') -342px 122px no-repeat;
+        background-size: auto;
+        // background: url('../src/images/pattern-rings.svg ') -342px 122px no-repeat, url('../src/images/image-profile-mobile.webp') 50% 0 no-repeat;
+        // background-size: auto, 174px 383px;
+    }
+}

@@ -3,8 +3,9 @@ import './Introduction.scss';
 const Introduction = () =>{
     return(
         <section id='intro'>
+            <div id='mobile-hero'></div>
             <h1>
-                Nice to meet you! <br/>I'm <span>Adam Keyes</span>.
+                Nice to meet you! I'm <span>Adam Keyes</span>.
             </h1>
             <p id='about-me'>
                 Based in the UK, I'm a front-end developer passionate about 
@@ -13,11 +14,6 @@ const Introduction = () =>{
             <button type='button' value='Contact me' onClick={()=>{window.location.assign('#contact-form');}}>
                 Contact me
             </button>
-            <div id='intro-hero'>
-                <div id='intro-circle'>
-                </div>
-            </div>
-            
         </section>
     );
 }
