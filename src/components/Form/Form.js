@@ -1,6 +1,10 @@
 import './Form.scss';
 
-const Form = () =>{
+const Form = ({onEmailChange,onNameChange,onMsgChange,messageSent, errors, formInfo, msgSent}) =>{
+    let popupClass = 'msg-sent';
+    if (msgSent){
+        popupClass = 'msg-sent show';
+    }
     return(
         <section id='contact-form'>
             <div id='contact-form_copy'>
@@ -11,12 +15,29 @@ const Form = () =>{
                 </p>
             </div>
             
-            <form>
-                <input type='text' placeholder='NAME' aria-label='name' name='senderName'></input>
-                <input type='email' placeholder='EMAIL' aria-label='email' name='senderEmail'></input>
-                <textarea name='message' placeholder='MESSAGE' aria-label='message' rows='4'></textarea>
-                <button type='submit'>Send message</button>
-            </form>
+            <div id='form' >
+                <div>
+                    <div className='input-area'>
+                        <input type='text' placeholder='NAME' value={formInfo.senderName} aria-label='name' name='senderName' id='senderName' onChange={onNameChange}></input>
+                        {errors.nameError.length>0 &&
+                            <div className='error-icon'>!</div>
+                        }
+                    </div>
+                    <p className='error-msg'>{errors.nameError}</p>
+                </div>
+                <div>
+                    <div className='input-area'>
+                        <input type='email' placeholder='EMAIL' value={formInfo.senderEmail} aria-label='email' name='senderEmail' id='senderEmail' onChange={onEmailChange}></input>
+                        {errors.emailError.length>0 &&
+                            <div className='error-icon'>!</div>
+                        }
+                    </div>
+                    <p className='error-msg'>{errors.emailError}</p>
+                </div>
+                <textarea name='message' placeholder='MESSAGE' value={formInfo.senderMsg} aria-label='message' rows='4' onChange={onMsgChange}></textarea>
+                <button type='submit' onClick={messageSent}>Send message</button>
+                <span className={popupClass} id="msgSent">Your message was sent!</span>
+            </div>
         </section>
     );
 }
