@@ -30,7 +30,7 @@ class App extends Component {
     // console.log(this.state.msgSent);
     if (!this.state.errors.emailError.length && !this.state.errors.nameError.length)
     {
-      fetch('http://localhost:3000/send-msg',
+      fetch('https://portfolio-page-server.onrender.com/send-msg',
                 {
                     method: "POST",
                     headers:{'Content-Type':'application/json'},
