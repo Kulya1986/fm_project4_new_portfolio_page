@@ -23,6 +23,11 @@
             max-width: 445px;
             margin-top: 0;
             margin-bottom: 0;
+
+            a{
+                color: $page-white;
+                font-size: $page-heading-m;
+            }
         }
     }
 

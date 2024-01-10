@@ -21,6 +21,10 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+#contact-form #contact-form_copy p a {
+  color: #f8f3ef;
+  font-size: 24px;
+}
 #contact-form #form {
   display: grid;
   grid-template-columns: 1fr;

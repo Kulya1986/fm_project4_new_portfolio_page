@@ -11,7 +11,7 @@ const Form = ({onEmailChange,onNameChange,onMsgChange,messageSent, errors, formI
                 <h2>Contact</h2>
                 <p>
                     In case I have enough skills for your project and you would love to see me as a member of your team, please 
-                    fill in the form to get in touch with me, and I’ll get back to you as soon as possible.
+                    fill in the form to get in touch with me, and I’ll get back to you as soon as possible. Or email me directly to <a href = "mailto: kulychka@gmail.com">kulychka@gmail.com</a>.
                 </p>
             </div>
             
