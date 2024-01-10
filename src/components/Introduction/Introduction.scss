@@ -51,11 +51,12 @@ h1{
         display: block;
         position: absolute;
         width: 174px;
-        height: 383px;
+        height: 400px;
         top: 0;
         z-index: -1;
         left: calc((100% - 174px)/2);
-        background: url('../../images/image-profile-mobile.webp') 0 0 no-repeat;
+        background: url('../../images/my_photo_mobile.webp') 0 0 no-repeat;
+        // background: url('../../images/image-profile-mobile.webp') 0 0 no-repeat;
         background-size: cover;
     }
     h1{

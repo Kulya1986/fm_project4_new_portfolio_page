@@ -10,8 +10,8 @@ const Form = ({onEmailChange,onNameChange,onMsgChange,messageSent, errors, formI
             <div id='contact-form_copy'>
                 <h2>Contact</h2>
                 <p>
-                    I would love to hear about your project and how I could help. Please 
-                    fill in the form, and I’ll get back to you as soon as possible.
+                    In case I have enough skills for your project and you would love to see me as a member of your team, please 
+                    fill in the form to get in touch with me, and I’ll get back to you as soon as possible.
                 </p>
             </div>
             

@@ -5,11 +5,10 @@ const Introduction = () =>{
         <section id='intro'>
             <div id='mobile-hero'></div>
             <h1>
-                Nice to meet you! I'm <span>Adam Keyes</span>.
+                Nice to meet you! I'm <span>Nataliia Kulyk</span>.
             </h1>
             <p id='about-me'>
-                Based in the UK, I'm a front-end developer passionate about 
-                building accessible web apps that users love.
+                Starting my career as QA specialist, I'm excited to introduce couple of my web projects to showcase proficiency level and expertise.
             </p>
             <button type='button' value='Contact me' onClick={()=>{window.location.assign('#contact-form');}}>
                 Contact me
@@ -19,3 +18,5 @@ const Introduction = () =>{
 }
 
 export default Introduction;
+
+
