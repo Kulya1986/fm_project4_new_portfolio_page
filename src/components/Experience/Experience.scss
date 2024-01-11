@@ -5,11 +5,11 @@
     background: url('../../images/pattern-rings.svg ') calc(100% + 250px) 250px no-repeat;
     background-size: auto;
 
-    #work-qualification{
+    #work-qualification, #certificates{
         
         display: grid;
-        // grid-template-columns: 1fr 1fr 1fr;
-        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        grid-template-columns: 1fr 1fr;
+        // grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
         row-gap: 3.5rem ;
         column-gap: 1.8rem;
         padding-top: 4.5rem;
@@ -26,7 +26,20 @@
                     padding: .7rem 0rem .7rem 1.2rem;
                 }
             }
+            img{
+                width: 100%;
+                transition: all ease-in-out .5s;
+            }
+            img:hover{
+                cursor: pointer;
+            }
+            img.large{
+                transform: scale(1.4);
+            }
         }
+    }
+    #certificates{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
     h2{
         margin: 0;
@@ -35,7 +48,7 @@
         margin: 1rem 0rem 0rem;
     }
     #projects{
-        margin-top: 8rem;
+        margin-top: 6rem;
         margin-bottom: 8rem;
     
         #projects-top{
@@ -185,7 +198,7 @@
         padding: 0 1rem;
         background-position: calc(100% + 344px) 539px;
 
-        #work-qualification{
+        #work-qualification, #certificates{
             padding-top: 2.5rem;
             padding-bottom: 2.5rem;
             row-gap: 1.5rem ;

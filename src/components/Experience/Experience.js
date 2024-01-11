@@ -11,8 +11,12 @@ import project_5_large from '../../images/my_projects/thumbnail_project5_large.j
 import project_5_small from '../../images/my_projects/thumbnail_project5_small.jpg';
 import project_coming_large from '../../images/my_projects/thumbnail_coming_large.jpg';
 import project_coming_small from '../../images/my_projects/thumbnail_coming_small.jpg';
+import udemy_1 from '../../images/my_certificates/Udemy_Certificate1.jpeg';
+import udemy_2 from '../../images/my_certificates/Udemy_Certificate2.jpeg';
+import itstep from '../../images/my_certificates/ITStep_Certificate.jpg';
 
 const Experience = () =>{
+    
     return(
         <section id='expert'>
             <div id='work-qualification'>
@@ -62,6 +66,11 @@ const Experience = () =>{
                     <h2>Sass</h2>
                     <p>3 Years Experience</p>
                 </div>     */}
+            </div>
+            <div id='certificates'>
+                <div><img onClick={(e)=>{e.target.classList.toggle('large');}} src={itstep} alt='ITStep certificate - Software Testing' title='ITStep certificate - Software Testing'/></div>
+                <div><img onClick={(e)=>{e.target.classList.toggle('large');}} src={udemy_1} alt='Udemy certificate - Web Developer' title='Udemy certificate - Web Developer'/></div>
+                <div><img onClick={(e)=>{e.target.classList.toggle('large');}} src={udemy_2} alt='Udemy certificate - React Native' title='Udemy certificate - React Native'/></div>
             </div>
             <div id='projects'>
                 <div id='projects-top'>

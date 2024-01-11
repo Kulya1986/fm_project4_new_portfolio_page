@@ -3,9 +3,9 @@
   background: url("../../images/pattern-rings.svg ") calc(100% + 250px) 250px no-repeat;
   background-size: auto;
 }
-#expert #work-qualification {
+#expert #work-qualification, #expert #certificates {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: 1fr 1fr;
   row-gap: 3.5rem;
   -moz-column-gap: 1.8rem;
        column-gap: 1.8rem;
@@ -13,13 +13,26 @@
   padding-bottom: 0.75rem;
   border-top: 2px solid #f8f3ef;
 }
-#expert #work-qualification div ul {
+#expert #work-qualification div ul, #expert #certificates div ul {
   margin-left: 1rem;
   list-style-image: url("../../images/icons8-tick.svg");
 }
-#expert #work-qualification div ul li {
+#expert #work-qualification div ul li, #expert #certificates div ul li {
   font-size: 24px;
   padding: 0.7rem 0rem 0.7rem 1.2rem;
+}
+#expert #work-qualification div img, #expert #certificates div img {
+  width: 100%;
+  transition: all ease-in-out 0.5s;
+}
+#expert #work-qualification div img:hover, #expert #certificates div img:hover {
+  cursor: pointer;
+}
+#expert #work-qualification div img.large, #expert #certificates div img.large {
+  transform: scale(1.4);
+}
+#expert #certificates {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 #expert h2 {
   margin: 0;
@@ -28,7 +41,7 @@
   margin: 1rem 0rem 0rem;
 }
 #expert #projects {
-  margin-top: 8rem;
+  margin-top: 6rem;
   margin-bottom: 8rem;
 }
 #expert #projects #projects-top {
@@ -152,17 +165,17 @@
     padding: 0 1rem;
     background-position: calc(100% + 344px) 539px;
   }
-  #expert #work-qualification {
+  #expert #work-qualification, #expert #certificates {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     row-gap: 1.5rem;
     grid-template-columns: 1fr;
     border-bottom: 2px solid #f8f3ef;
   }
-  #expert #work-qualification div p {
+  #expert #work-qualification div p, #expert #certificates div p {
     margin-top: 0;
   }
-  #expert #work-qualification div ul {
+  #expert #work-qualification div ul, #expert #certificates div ul {
     margin-left: 0;
   }
   #expert #projects {
