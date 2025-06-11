@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
-@import './variables';
-
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap");
+@import "./variables";
 
 body {
   margin: 0;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
@@ -16,37 +15,37 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-h1{
+h1 {
   font-size: $page-heading-xl;
   line-height: $page-line-xl;
   font-weight: 700;
   letter-spacing: $page-spacing-xl;
 }
 
-h2{
+h2 {
   font-size: $page-heading-l;
   line-height: $page-line-l;
   font-weight: 700;
   letter-spacing: $page-spacing-l;
 }
 
-h3{
+h3 {
   font-size: $page-heading-m;
   line-height: $page-line-m;
   font-weight: 700;
 }
 
-p{
+p {
   font-size: $page-p;
   line-height: $page-p-line;
   font-weight: 500;
 }
 
-button{
+button {
   background-color: unset;
   color: $page-white;
   text-transform: uppercase;
@@ -55,17 +54,19 @@ button{
   line-height: 26px; /* 162.5% */
   letter-spacing: 2.286px;
   border-style: none;
-  padding: .5rem 0rem .625rem;
-  border-bottom: 2px solid $page-green; 
+  padding: 0.5rem 0rem 0.625rem;
+  border-bottom: 2px solid $page-green;
 }
 
-button:hover{
+button:hover,
+button:focus,
+button:focus-visible {
   color: $page-green;
   cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
-  h1{
+  h1 {
     font-size: $tablet-heading-xl;
     line-height: $tablet-line-xl;
     letter-spacing: $tablet-spacing-xl;
@@ -73,19 +74,18 @@ button:hover{
 }
 
 @media only screen and (max-width: 480px) {
-  h1{
+  h1 {
     font-size: $mobile-heading-xl;
     line-height: $mobile-line-xl;
     letter-spacing: $mobile-spacing-xl;
   }
-  h2{
+  h2 {
     font-size: $mobile-heading-l;
     line-height: $mobile-line-l;
     letter-spacing: $mobile-spacing-l;
   }
-  p{
+  p {
     font-size: $mobile-p;
     line-height: $mobile-p-line;
-    
   }
 }

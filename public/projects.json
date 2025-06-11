@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "Personal Finance APP",
+    "cover": "thumbnail_project1.jpg",
+    "live": "https://personalfinapp.netlify.app/",
+    "code": "https://github.com/Kulya1986/fm_project17-personal-finance-app",
+    "technologies": [
+      "React JS",
+      "React Router",
+      "Styled Components",
+      "Supabase",
+      "REST API"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Wild Oasis (course project)",
+    "cover": "thumbnail_project10.jpg",
+    "live": "https://the-wild-oasis-by-kulya.netlify.app/",
+    "code": "https://github.com/Kulya1986/project16-the-wild-oasis-",
+    "technologies": [
+      "React JS",
+      "React Router",
+      "Styled Components",
+      "Supabase",
+      "REST API"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Frontend Quiz",
+    "cover": "thumbnail_project2.jpg",
+    "live": "https://webquizappbykulya1986.netlify.app/",
+    "code": "https://github.com/Kulya1986/fm_project8_frontend_quiz_app",
+    "technologies": ["HTML", "React JS", "SCSS"]
+  },
+  {
+    "id": 3,
+    "title": "Web Entertainment",
+    "cover": "thumbnail_project3.jpg",
+    "live": "https://entertainmentpagekulya1986.netlify.app/",
+    "code": "https://github.com/Kulya1986/fm_project9_web_entertainment",
+    "technologies": ["HTML", "React JS", "SCSS", "React Router"]
+  },
+  {
+    "id": 4,
+    "title": "URL shortening site",
+    "cover": "thumbnail_project4.jpg",
+    "live": "https://urlshorteningapi-by-kulya1986.netlify.app/",
+    "code": "https://github.com/Kulya1986/fm_project15_url_shortening_api",
+    "technologies": ["HTML", "React JS", "Tailwind css", "VITE", "REST API"]
+  },
+  {
+    "id": 5,
+    "title": "Social media dashboard",
+    "cover": "thumbnail_project5.jpg",
+    "live": "https://social-media-dashboard-by-kulya86.netlify.app/",
+    "code": "https://github.com/Kulya1986/fm_project14_social_media_dashboard",
+    "technologies": ["HTML", "Tailwind css", "React JS", "Context"]
+  },
+  {
+    "id": 6,
+    "title": "Planets' facts",
+    "cover": "thumbnail_project6.jpg",
+    "live": "https://planetsfactskulya1986.netlify.app/",
+    "code": "https://github.com/Kulya1986/fm_project7_planets_facts_site",
+    "technologies": ["HTML", "SCSS", "React JS"]
+  },
+  {
+    "id": 7,
+    "title": "Dictionary APP",
+    "cover": "thumbnail_project7.jpg",
+    "live": "https://splendid-genie-3fbc5f.netlify.app/",
+    "code": "https://github.com/Kulya1986/fm_project3_dictionary_app",
+    "technologies": ["HTML", "SCSS", "React JS", " REST API"]
+  },
+  {
+    "id": 8,
+    "title": "Introduction section ",
+    "cover": "thumbnail_project8.jpg",
+    "live": "https://silly-bombolone-09ff74.netlify.app/",
+    "code": "https://github.com/Kulya1986/FM_project1_IntroWithDropdownMenu",
+    "technologies": ["HTML", "SCSS", "React JS"]
+  },
+  {
+    "id": 9,
+    "title": "Room homepage",
+    "cover": "thumbnail_project9.jpg",
+    "live": "https://jocular-cheesecake-4c4182.netlify.app/",
+    "code": "https://github.com/Kulya1986/FM_project2_room_HP",
+    "technologies": ["HTML", "SCSS", "React JS"]
+  }
+]
