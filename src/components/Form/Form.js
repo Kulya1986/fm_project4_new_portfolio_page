@@ -20,7 +20,7 @@ export default function Form() {
 
   function onSubmit(data) {
     //   fetch("https://portfolio-page-server.onrender.com/send-msg"
-    fetch("http://localhost:3000/send-msg", {
+    fetch("https://portfolio-page-server.onrender.com/send-msg", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
