@@ -57,6 +57,11 @@
       margin-left: auto;
     }
 
+    button:disabled {
+      pointer-events: none;
+      color: #898785;
+    }
+
     input:focus,
     input:focus-visible,
     textarea:focus,

@@ -8,7 +8,7 @@ export default function Form() {
   });
 
   const { errors } = formState;
-  const { isDirty } = formState;
+  const { isDirty, isSubmitted } = formState;
   const [popupClass, setPopupClass] = useState("msg-sent");
 
   useEffect(
@@ -35,8 +35,10 @@ export default function Form() {
       .catch((err) => {
         // setPopupClass("msg-sent show not");
         console.log("could not send your message");
+
         throw new Error("Could not send message");
-      });
+      })
+      .finally(reset());
   }
 
   function onError(errors) {
@@ -121,7 +123,9 @@ export default function Form() {
           </div>
           <p className="error-msg">{errors?.senderMsg?.message}</p>
         </div>
-        <button type="submit">Send message</button>
+        <button type="submit" disabled={isSubmitted}>
+          {isSubmitted ? "Sending ..." : "Send message"}
+        </button>
         <span className={popupClass} id="msgSent">
           {popupClass.includes("not")
             ? "Your message wasn't sent!"

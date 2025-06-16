@@ -54,6 +54,10 @@
   width: fit-content;
   margin-left: auto;
 }
+#contact-form form button:disabled {
+  pointer-events: none;
+  color: #898785;
+}
 #contact-form form input:focus,
 #contact-form form input:focus-visible,
 #contact-form form textarea:focus,
