@@ -1,6 +1,7 @@
 import "./Experience.scss";
 import udemy_1 from "../../images/my_certificates/Udemy_Certificate1.jpeg";
 import udemy_2 from "../../images/my_certificates/Udemy_Certificate2.jpeg";
+import udemy_3 from "../../images/my_certificates/Udemy_Certificate3.jpg";
 import itstep from "../../images/my_certificates/ITStep_Certificate.jpg";
 import { useEffect, useState } from "react";
 
@@ -92,6 +93,16 @@ export default function Experience() {
             src={udemy_1}
             alt="Udemy certificate - Web Developer"
             title="Udemy certificate - Web Developer"
+          />
+        </div>
+        <div>
+          <img
+            onClick={(e) => {
+              e.target.classList.toggle("large");
+            }}
+            src={udemy_3}
+            alt="Udemy certificate - The Ultimate React Course"
+            title="Udemy certificate - The Ultimate React Course"
           />
         </div>
         <div>
