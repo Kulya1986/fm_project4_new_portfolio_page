@@ -27,13 +27,13 @@ export default function Experience() {
         <div>
           <h2>Hard Skills</h2>
           <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript / React / NextJS</li>
+            <li>Postman/REST API</li>
+            <li>Databases (Postgres / Supabase / MongoDB)</li>
             <li>Testing methodologies</li>
             <li>Bugs tracking systems (Mantis, JIRA)</li>
             <li>Selenium WebDriver (JAVA)</li>
-            <li>HTML/CSS</li>
-            <li>JavaScript/React</li>
-            <li>Postman/REST API</li>
-            <li>Databases (Postgres/MSSQL)</li>
           </ul>
         </div>
         <div>

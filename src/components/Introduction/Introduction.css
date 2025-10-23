@@ -1,5 +1,8 @@
 #intro {
-  padding: 88px 165px 216px 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 88px 165px 100px 165px;
   background: url("../../images/pattern-rings.svg ") -100px 20px no-repeat, url("../../images/pattern-circle.svg") calc(100% - 545px) 408px no-repeat;
   background-size: auto, auto;
 }
@@ -44,6 +47,7 @@ h1 span {
     background: url("../../images/pattern-circle.svg") calc(100% + 65px) 162px no-repeat;
     background-size: auto;
     text-align: center;
+    align-items: center;
   }
   #mobile-hero {
     display: block;

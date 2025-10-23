@@ -8,9 +8,8 @@ const Introduction = () => {
         Nice to meet you! I'm <span>Nataliia Kulyk</span>.
       </h1>
       <p id="about-me">
-        Starting my career as QA specialist/Web-developer, I'm excited to
-        introduce couple of my web projects to showcase proficiency level and
-        expertise.
+        Starting my career as Web-developer, I'm excited to introduce couple of
+        my web projects to showcase proficiency level and expertise.
       </p>
       <button
         type="button"

@@ -1,5 +1,33 @@
 [
   {
+    "id": 12,
+    "title": "Product Feedback APP",
+    "cover": "thumbnail_project12.jpg",
+    "live": "https://fm-product-feedback-app.vercel.app/",
+    "code": "https://github.com/Kulya1986/fm_project19_product_feedback_app",
+    "technologies": [
+      "React JS",
+      "Next JS",
+      "Tailwind css",
+      "Supabase",
+      "REST API"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Wild Oasis Website (course project)",
+    "cover": "thumbnail_project11.jpg",
+    "live": "https://the-wild-oasis-website-liart-nu.vercel.app/",
+    "code": "https://github.com/Kulya1986/project18-the-wild-oasis-website",
+    "technologies": [
+      "React JS",
+      "Next JS",
+      "Tailwind css",
+      "Supabase",
+      "REST API"
+    ]
+  },
+  {
     "id": 1,
     "title": "Personal Finance APP",
     "cover": "thumbnail_project1.jpg",

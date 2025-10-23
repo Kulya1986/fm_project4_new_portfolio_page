@@ -13,7 +13,8 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 h1 {
@@ -68,6 +69,11 @@ button:focus-visible {
     line-height: 72px;
     letter-spacing: -2.045px;
   }
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
 }
 @media only screen and (max-width: 480px) {
   h1 {
@@ -76,12 +82,12 @@ button:focus-visible {
     letter-spacing: -1.136px;
   }
   h2 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
     letter-spacing: -1px;
   }
   p {
     font-size: 16px;
     line-height: 26px;
   }
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */

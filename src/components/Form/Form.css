@@ -152,7 +152,7 @@
     letter-spacing: -2.045px;
     margin: 0rem 0rem 1.25rem;
   }
-  #contact-form #form {
+  #contact-form form {
     width: 100%;
   }
 }
@@ -171,7 +171,7 @@
     line-height: 40px;
     letter-spacing: -1.136px;
   }
-  #contact-form #form {
+  #contact-form form {
     width: 100%;
   }
 }/*# sourceMappingURL=Form.css.map */
